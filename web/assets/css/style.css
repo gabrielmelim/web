@@ -1,0 +1,121 @@
+body{
+    background-image: url(zenitsu.jpg);
+    background-position: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+iframe {
+    border-radius: 6px;
+    aspect-ratio: 3/2;
+    width: 40vw;
+}
+
+.navbar {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.img-perfil {
+    border-radius: 50%;
+    margin-right: 30px;
+    border: 4px solid rgba(247, 243, 4, 0.7);
+    padding: 1px;
+}
+
+.main-home, .main-contact {
+    background: rgba(255, 255 ,255, 0.4);
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255 ,255, 0.5);
+    padding: 45px;
+    margin: 30px auto;
+    width: 85vw;
+}
+
+.main-description {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main-description p {
+    text-align: justify;
+    font-weight: 400;
+}
+
+.main-video h2 {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.main-video div {
+    text-align: center;
+}
+
+
+/*  CONTATO */
+
+.main-contact {
+    text-align: center;
+}
+
+.main-contact-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form {
+    margin-top: 30px;
+    width: 30vw;
+}
+
+label {
+    font-weight: bold;
+}
+
+.form input, .form textarea {
+    border: 1px solid rgb(29, 33, 61);
+    border-radius: 5px;
+    padding: 6px;
+    margin-top: 5px;
+    background: rgba(255,255,255, 0.8);
+    width: 95%;
+    resize: none;
+}
+
+.btn-enviar {
+    padding: 8px 20px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(228, 214, 17);
+    color: #fff;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.btn-enviar:hover {
+    background-color: rgb(38, 44, 100);
+}
+
+/* ! DIV INPUT */
+
+#inputNome, #inputEmail, #inputAssunto {
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: .8rem;
+}
