@@ -1,8 +1,7 @@
 body{
-    background-image: url(zenitsu.jpg);
+    background-image: url("../img/zenitsu.jpg");
     background-position: center;
 }
-
 
 a {
     text-decoration: none;
@@ -66,6 +65,11 @@ iframe {
     text-align: center;
 }
 
+.main-video iframe{
+
+    border: rgb(246, 250, 6) 4px solid;
+    
+}
 
 /*  CONTATO */
 
