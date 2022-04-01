@@ -42,8 +42,11 @@
             Lista de Animes
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Dublado</a>
-            <a class="dropdown-item" href="#">Legendado</a>
+            <a class="dropdown-item" href="#">1</a>
+            <a class="dropdown-item" href="#">2</a>
+            <a class="dropdown-item" href="#">3</a>
+            <a class="dropdown-item" href="#">4</a>
+            <a class="dropdown-item" href="#">5</a>
         </li>
 
 
@@ -206,23 +209,23 @@
     <div class="row align-items-center ">
       <div class="col-md-6">
 
-        <form>
+        <form class="form">
           <div class="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-          <div class="form-group">
-    
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
+            
+         
+          <label for="txt_nome">Nome:</label><br>
+          <input class="form-control" type="text" id="txt_nome" onkeyup="validaNome()">
+          <div class="invalid-feedback d-none" id="inputNome">teste</div>
 
-          <div class="form-group d-flex justify-content-end">
-            <button class="btn btn-outline-success">Enviar</button>
-          </div>
-        </form>
+          <label for="txt_email">Email:</label><br>
+          <input class="form-control" type="text" id="txt_email" onkeyup="validaEmail()">
+          <div class="invalid-feedback d-none" id="inputEmail">teste</div>
+
+          <label for="txt_assunto">Assunto:</label><br>
+          <textarea class="form-control" name="assunto" id="txt_assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea><br>
+          <button class="btn btn-enviar" onclick="enviar()">Enviar</button>
+        </div>
+      </form>
 
       </div>
       <div class="col-md-6">
@@ -278,6 +281,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
